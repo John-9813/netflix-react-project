@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .icons {
+    margin-left: 0.8em;
+    margin-right: 0.8em;
+    font-size: 1.2em;
+    color: #f5f5f1 !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  #kids {
+    color: #f5f5f1;
   }
-  to {
-    transform: rotate(360deg);
+
+  body {
+    background-color: #221F1F;
   }
-}
+
+  /* ho provato a cambiare le misure manualmente ma non va */
+  .movie-card { 
+    width: 100px;
+    height: 100px;
+  }
+
+  .col img {
+    transition: transform 0.2s;
+  }
+
+  .col img:hover {
+    transform: scale(1.1);
+  }
+
+  footer {
+    color: white !important;
+  }
+
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
